@@ -22,12 +22,12 @@ v3 is a rewrite of the library as such there are important changes:
 
 Require and create `rbac` object.
 
-    import RBAC from 'easy-rbac';
+    import RBAC from '@kensingtontech/easy-rbac';
     const rbac = new RBAC(opts);
 
 Or use create function
 
-    import RBAC from 'easy-rbac';
+    import RBAC from '@kensingtontech/easy-rbac';
     const rbac = RBAC.create(opts);
 
 ## Options
