@@ -1,6 +1,6 @@
 {
   "name": "easy-rbac",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "description": "RBAC implementation for Node.js",
   "main": "lib/rbac.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DeadAlready/easy-rbac.git"
+    "url": "git+https://github.com/KensingtonTech/easy-rbac.git"
   },
   "keywords": [
     "rbac"
@@ -18,10 +18,8 @@
   "bugs": {
     "url": "https://github.com/DeadAlready/easy-rbac/issues"
   },
-  "homepage": "https://github.com/DeadAlready/easy-rbac#readme",
-  "dependencies": {
-    "debug": "^2.2.0"
-  },
+  "homepage": "https://github.com/KensingtonTech/easy-rbac#readme",
+  "dependencies": {},
   "devDependencies": {
     "mocha": "^2.3.3"
   },

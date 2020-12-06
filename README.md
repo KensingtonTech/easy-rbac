@@ -1,6 +1,6 @@
 # easy-rbac
 
-Promise based HRBAC (Hierarchical Role Based Access Control) implementation for Node.js
+Fork of promise-based HRBAC (Hierarchical Role Based Access Control) implementation for Node.js.  This eliminates debug module dependency, converts to ES6 exports, and includes the DefinitelyTyped TypeScript definition.
 
 ## NB! Important changes with v3
 
@@ -12,7 +12,7 @@ v3 is a rewrite of the library as such there are important changes:
 
 ## Installation
 
-    npm install easy-rbac
+    npm install @kensingtontech/easy-rbac
     
 ## Test
 
@@ -22,12 +22,13 @@ v3 is a rewrite of the library as such there are important changes:
 
 Require and create `rbac` object.
 
-    const RBAC = require('easy-rbac');
+    import RBAC from 'easy-rbac';
     const rbac = new RBAC(opts);
 
 Or use create function
 
-    const rbac = require('easy-rbac').create(opts);
+    import RBAC from 'easy-rbac';
+    const rbac = RBAC.create(opts);
 
 ## Options
 
